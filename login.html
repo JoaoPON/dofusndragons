@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-gradiente">
+            <a class="navbar-brand font-weight-bold text-warning" href="index.html">DofusNDragons</a>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container container-box" style="max-width: 500px;">
+        <h2 class="text-center font-weight-bold">Login</h2>
+        <hr class="linha-tema">
+
+        <form method="post" action="login.php">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" name="senha" required>
+            </div>
+
+            <hr class="linha-tema">
+            <div class="text-center">
+                <button type="submit" class="btn btn-warning font-weight-bold px-5">Entrar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="text-center text-muted py-4">
+        <small>DofusNDragons — Gerenciador de Mesas de RPG</small>
+    </footer>
+</body>
+</html>

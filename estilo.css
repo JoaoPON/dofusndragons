@@ -1,0 +1,31 @@
+.bg-gradiente {
+    background: linear-gradient(45deg, #1b263b, #415a77);
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+.container-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+hr.linha-tema {
+    border: 1px solid #d4a017;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar-perfil {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d4a017;
+}
